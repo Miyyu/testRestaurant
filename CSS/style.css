@@ -1,0 +1,26 @@
+*{  /*All the page*/
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #4B5C89;
+}
+nav{
+    background: #FFCE6C;
+    display: flex;
+}
+
+.logo{
+    padding-left: 50px;
+    padding-bottom: 5px;
+}
+
+.ulNav{
+    display: flex;
+    margin:50px;
+}
+
+li{
+    padding: 20px;
+}
