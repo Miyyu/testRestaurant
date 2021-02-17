@@ -4,11 +4,12 @@
 }
 
 body{
-    background-color: #4B5C89;
+    background-color: #AD9B8A;
 }
+
 nav{
-    background: #FFCE6C;
     display: flex;
+    background: #FFFFFF;
 }
 
 .logo{
@@ -27,11 +28,4 @@ li{
 
 .busca{
     padding: 70px;
-}
-
-.foto{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 30px;
 }
