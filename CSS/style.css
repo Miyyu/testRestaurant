@@ -28,3 +28,10 @@ li{
 .busca{
     padding: 70px;
 }
+
+.foto{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+}
