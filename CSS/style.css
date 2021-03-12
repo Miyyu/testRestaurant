@@ -1,31 +1,77 @@
 *{  /*All the page*/
     margin: 0;
     padding: 0;
+    font-family: 'Shippori Mincho', serif;
 }
 
 body{
     background-color: #AD9B8A;
 }
 
-nav{
+header{
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     background: #FFFFFF;
+    align-items: center;
 }
 
-.logo{
-    padding-left: 50px;
-    padding-bottom: 5px;
-}
-
-.ulNav{
+#menu{
     display: flex;
-    margin:50px;
-}
-
-li{
+    /*flex-direction: row;*/
+    justify-content:space-around;
     padding: 20px;
 }
 
-.busca{
-    padding: 70px;
+#menu a{
+    margin: 0 30px;
+    text-decoration: none;
+    color: black;    
+}
+
+#menu a:hover{
+    color: #5f5f5f;
+}
+
+.logo{
+    padding: 20px 20px 20px 100px;
+    width: 300px;
+    height: 100px;
+}
+
+#navBar{
+    display: flex;
+    padding-right: 60px;
+}
+
+#navBar p{
+    margin: 20px;
+}
+
+#introMenus{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 0 50px;
+}
+
+#introMenus section{
+    margin: 10px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.imagensMenu{
+    border-radius: 10px;
+    width: 25%;
+    justify-content: center;
+
+}
+
+footer{
+    color: blanchedalmond;
+    background-color: rgb(31, 31, 31);
+    text-align: center;
 }
