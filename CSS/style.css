@@ -19,9 +19,13 @@ header{
 
 #menu{
     display: flex;
-    /*flex-direction: row;*/
     justify-content:space-around;
     padding: 20px;
+    /*position: fixed;
+    background: #AD9B8A;
+    width: 100%;*/
+    /*box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;*/
+    box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
 }
 
 #menu a{
@@ -40,20 +44,25 @@ header{
     height: 100px;
 }
 
-#navBar{
+#divDados{
     display: flex;
     padding-right: 60px;
+    position: relative;
 }
 
-#navBar p{
+#divDados p{
     margin: 20px;
 }
+
+/*.inicio{
+    margin-top: 50px;
+}*/
 
 #introMenus{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    margin: 0 50px;
+    margin: 30px 50px;
 }
 
 #introMenus section{
@@ -66,9 +75,12 @@ header{
 
 .imagensMenu{
     border-radius: 10px;
-    width: 100%;
+    width: 80%;
     /*justify-content: center;*/
 
+}
+
+.imagensMenu:hover{
 }
 
 footer{
