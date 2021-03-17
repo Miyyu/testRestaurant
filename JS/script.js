@@ -1,3 +1,3 @@
 function emCima(imagem){
-    console.log("Em cima");        
+    console.log("Em cima");
 }
