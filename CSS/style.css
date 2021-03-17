@@ -71,13 +71,24 @@ header{
     background-color: #FFFFFF;
     border-radius: 5px;
     text-align: center;
+    display: inline-block;
+    position: relative;
+}
+
+figcaption{
+    position: absolute;
+    top: 50px;
+    right: 5px;
+    left: 5px;
+    background-color: #AD9B8A;
+    font-size: large;
+    color: black;
 }
 
 .imagensMenu{
     border-radius: 10px;
     width: 80%;
     /*justify-content: center;*/
-
 }
 
 footer{
