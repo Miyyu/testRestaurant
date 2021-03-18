@@ -83,6 +83,8 @@ figcaption{
     background-color: #AD9B8A;
     font-size: large;
     color: black;
+    border-radius: 5px;    
+    box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
 }
 
 .imagensMenu{
