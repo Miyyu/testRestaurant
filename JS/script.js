@@ -19,4 +19,19 @@ for(var i = 0; i < blocos.length; i++){ //uso um for para iterar entre as imagen
             nome.innerHTML = "SOBREMESAS";
         }
     })
+
+    blocos[i].addEventListener("mouseout", function(){
+        console.log("saiu");
+
+        let nome1 = window.document.querySelector("#comida");
+        nome1.innerHTML = "";
+
+        let nome2 = window.document.querySelector("#bebida");
+        nome2.innerHTML = "";
+
+        let nome = window.document.querySelector("#sobremesa");
+        nome.innerHTML = "";
+    });
+
 }
+
