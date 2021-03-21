@@ -54,10 +54,6 @@ header{
     margin: 20px;
 }
 
-/*.inicio{
-    margin-top: 50px;
-}*/
-
 #introMenus{
     display: flex;
     flex-direction: row;
