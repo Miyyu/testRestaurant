@@ -5,8 +5,6 @@ for(var i = 0; i < blocos.length; i++){
         
         var saberConteudo = this.alt;
 
-        /*console.log(b);*/
-
         if(saberConteudo === "Prato de Entrada"){
             let nome = window.document.querySelector("#comida");
             nome.innerHTML = "COMIDAS";

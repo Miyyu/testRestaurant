@@ -94,7 +94,9 @@ figcaption{
 }
 
 footer{
+    display: flex;
     color: blanchedalmond;
     background-color: rgb(31, 31, 31);
     text-align: center;
+    padding: 20px;
 }
