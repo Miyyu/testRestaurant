@@ -51,7 +51,11 @@ header{
 }
 
 #divDados p{
-    margin: 20px;
+    margin: 20px 20px 20px 5px;
+}
+
+#divDados img{
+    margin-top: 20px;
 }
 
 #introMenus{
@@ -94,5 +98,21 @@ footer{
     color: blanchedalmond;
     background-color: rgb(31, 31, 31);
     text-align: center;
-    padding: 20px;
+    /*padding: 20px;*/
+    justify-content: space-around;
+}
+
+footer div{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+footer div p{
+    margin: 5px;
+
+}
+
+footer div img{
+    padding: 30px;
 }
